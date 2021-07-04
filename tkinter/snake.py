@@ -96,15 +96,15 @@ def check_collisions(snake):
     x, y = snake.coordinates[0]
 
     if x < 0 or x >= game_width:
-        print("game over")
+        print("game over") # testing purpose
         return True
     elif y < 0 or y >= game_height:
-        print("game over")
+        print("game over") # testing purpose
         return True
     
     for body_part in snake.coordinates[1:]:
         if x == body_part[0] and y == body_part[1:]:
-            print("game over")
+            print("game over") # testing purpose
             return True
 
 
@@ -148,5 +148,4 @@ food = Food()
 
 next_turn(snake, food)
 
-window.iconbitmap('icon.ico')
 window.mainloop()
