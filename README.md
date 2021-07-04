@@ -15,6 +15,17 @@ for i in search(query, tld="com", num=60, stop=10, pause=2): # what links in ret
 ```
 
 hello_world.py
+
 ```py
 print("Hello World!")
+```
+
+color_text.py
+
+```py
+
+from colorama import Back, Fore, init # you need to install this from pip
+colorama.init()
+print(Fore.RED + 'Red Text')
+print(Back.YELLOW + 'Highlighted Text')
 ```
