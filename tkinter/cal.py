@@ -1,6 +1,4 @@
 from tkinter import *
-from tkinter import messagebox
-from warnings import showwarning
 
 def button_press(num):
     global equation_text
