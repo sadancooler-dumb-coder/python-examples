@@ -30,3 +30,14 @@ print(Fore.RED + 'Red Text') # print red text
 
 print(Back.YELLOW + 'Highlighted Text') # print yellow-highlighted text
 ```
+
+introduction.py
+
+```py
+
+print("What is your name?") # print the user a message
+name = input('Name: ') # ask the user for their name
+print("What is your age?") # print the user a message
+age = input('Age: ') # ask the user for their age
+print("Your name is " + name + "\nYour age is " + age) # get the state of the user's age && name
+```
