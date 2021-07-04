@@ -25,7 +25,8 @@ color_text.py
 ```py
 
 from colorama import Back, Fore, init # you need to install this from pip
-colorama.init()
-print(Fore.RED + 'Red Text')
-print(Back.YELLOW + 'Highlighted Text')
+colorama.init() # initiliaze the module.
+print(Fore.RED + 'Red Text') # print red text
+
+print(Back.YELLOW + 'Highlighted Text') # print yellow-highlighted text
 ```
